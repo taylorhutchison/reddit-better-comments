@@ -1,0 +1,19 @@
+{
+  "name": "Reddit Better Comments",
+  "version": "1.0",
+  "description": "An extension to make reddit comments better.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon.png",
+    "default_popup" : "popup.html"
+  },
+  "permissions" : [
+    "tabs"
+  ],
+  "manifest_version": 2
+}
+
